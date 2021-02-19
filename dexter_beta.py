@@ -23,11 +23,11 @@ def main():
     import csv
 
     # Comment this out to reverse headless function
-    options = Options()
-    options.headless = True
+    # options = Options()
+    # options.headless = True
 
     # Comment out 'options=options' to reverse headless function
-    browser = webdriver.Chrome("/Users/ext04/Documents/Dexter/chromedriver", options=options)
+    browser = webdriver.Chrome("/Users/ext04/Documents/Dexter/chromedriver") #, options=options)
 
     # Opens script on DVLA page
     browser.get("https://www.viewdrivingrecord.service.gov.uk/driving-record/licence-number")
@@ -98,6 +98,7 @@ def main():
             print("D", x, ",", "input error")
             with open("raw_output.txt", "a") as f:
                 print("D", x, ",", "input error", file=f)
+                browser.quit()
             main()
 
         else:
@@ -108,6 +109,7 @@ def main():
             with open("raw_output.txt", "a") as f:
                 print("D", x, ",", file=f)
                 print(getpoints.text, file=f)
+                browser.quit()
             main()
 
 

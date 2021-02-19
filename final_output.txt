@@ -1,0 +1,13 @@
+0 , 0 points 
+1 , input error 
+2 , 0 points 
+3 , 0 points 
+4 , input error 
+5 , input error 
+6 , 0 points IN10 Penalty points: 6 Expired 
+7 ,  
+8 , 0 points 1 disqualification IN10 Expired 
+9 , 0 points 1 disqualification TT99 Expired 
+10 , input error 
+11 , input error 
+12 , input error

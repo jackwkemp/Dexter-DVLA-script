@@ -1,0 +1,53 @@
+D 0 ,
+To find out more visit the penalty points and disqualifications sections.
+You have
+0 current penalty points
+D 1 , input error
+D 2 ,
+To find out more visit the penalty points and disqualifications sections.
+You have
+0 current penalty points
+D 3 ,
+To find out more visit the penalty points and disqualifications sections.
+You have
+0 current penalty points
+D 4 , input error
+D 5 , input error
+D 6 ,
+To find out more visit the penalty points and disqualifications sections.
+You have
+0 current penalty points
+IN10
+Penalty points: 6
+Offence date: 7 Feb 2017
+Expired
+Show information
+D 7 ,
+
+D 8 ,
+To find out more visit the penalty points and disqualifications sections.
+You have
+0 current penalty points
+You have
+1 disqualification
+IN10
+Period: 14 days
+Start date: 27 Oct 2017
+End date: 9 Nov 2017
+Expired
+Show information
+D 9 ,
+To find out more visit the penalty points and disqualifications sections.
+You have
+0 current penalty points
+You have
+1 disqualification
+TT99
+Period: 6 months
+Start date: 10 Jan 2018
+End date: 9 Jul 2018
+Expired
+Show information
+D 10 , input error
+D 11 , input error
+D 12 , input error
