@@ -20,35 +20,18 @@ The verification process required three key pieces of information:
 
 With driver consent, we could query our internal system to generate a .csv file containing the required information. The goal of the project was to automate the process using a Python script integrated with Selenium and Chromedriver.
 
-## Script Overview
+## Features:
+- **Automated Driver Onboarding**: Automates the process of verifying driver compliance.
+- **Steps**:
+  1. Extract data from a .csv file (Driver Licence Number, National Insurance Number, Postcode).
+  2. Input data into the DVLA website.
+  3. Retrieve points information and save to a .txt file.
 
-The Python script automates the following workflow:
-
-1. Access the DVLA Website:
-
-    - Selenium is invoked to open the appropriate UK Government (DVLA) website.
-
-2. Extract Data from .csv:
-
-    - The script retrieves the first row of data from a saved .csv file containing the Driver Licence Number, National Insurance Number, and Postcode.
-
-3. Input Data:
-
-    - The script enters the extracted information into the corresponding fields on the DVLA website.
-
-4. Submission and Validation:
-
-    - The script verifies the necessary fields and submits the information to log in.
-
-    - If the login attempt fails due to incorrect information, the script records the failure and proceeds to the next row in the .csv file.
-
-5. Extract Driver Points Information:
-
-    - Once logged in successfully, the script extracts the driver’s points information and saves it to a .txt file.
-
-6. Completion:
-
-    - The script loops through all rows in the .csv file, completing the process for each driver. After completion, onboarding agents can review the results to identify drivers scheduled for onboarding that day.
+## Setup
+1. Clone the repository.
+2. Install dependencies: `pip install selenium`.
+3. Ensure `chromedriver` is available.
+4. Run the script: `python dexter_beta.py`.
 
 ## Outcomes and Benefits
 
@@ -72,5 +55,6 @@ This automation yielded several key benefits:
 
 This project exemplifies the impact of leveraging automation to solve operational inefficiencies and deliver tangible improvements to business processes and customer satisfaction.
 
+[![How to Use the Script](https://img.youtube.com/vi/jyKTnHhHsAo/0.jpg)](https://www.youtube.com/watch?v=jyKTnHhHsAo)
 
 
